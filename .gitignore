@@ -1,26 +1,18 @@
-# Compiled executables
+# ==============================
+# C / C++ Compiled Files
+# ==============================
 *.exe
 *.out
 *.app
-
-# Object files
 *.o
 *.obj
-
-# Static and dynamic libraries
 *.a
 *.lib
 *.dll
 *.so
 *.dylib
-
-# Debug files
 *.pdb
 *.ilk
-
-# Core dumps
-core
-core.*
 
 # Build directories
 build/
@@ -28,17 +20,69 @@ bin/
 Debug/
 Release/
 
-# VS Code workspace settings
+# ==============================
+# Python
+# ==============================
+
+# Bytecode and cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Python packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+wheels/
+
+# Test and coverage reports
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# Type-checker and linter caches
+.mypy_cache/
+.pyre/
+.ruff_cache/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Python logs
+*.log
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# ==============================
+# VS Code
+# ==============================
 .vscode/
 
-# Temporary files
+# ==============================
+# Temporary Files
+# ==============================
 *.tmp
 *.temp
 *.swp
 *.bak
 *~
 
-# OS-generated files
+# ==============================
+# Operating System Files
+# ==============================
 .DS_Store
 Thumbs.db
 desktop.ini
