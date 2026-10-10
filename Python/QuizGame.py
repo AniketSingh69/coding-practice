@@ -1,3 +1,6 @@
+#write a program to create a simple quiz game
+
+
 questions = [
     "What is 2 + 2? ",
     "What is the capital of India? ",
@@ -21,7 +24,7 @@ for i in range(6):
 
 
 def final_score(score):
-    print("Your score is:", score, "/ 64"
+    print("Your score is:", score, "/ 6"
     "")
 
     if score == 4 or score==5 or score == 6:

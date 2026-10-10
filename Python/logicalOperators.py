@@ -1,3 +1,5 @@
+#write a program to demonstrate logical operators
+
 a=50
 b=20
 print(not False)
