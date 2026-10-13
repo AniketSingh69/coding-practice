@@ -1,3 +1,8 @@
+/*
+ Write a C program to input the three angles of a triangle and check whether they form a valid triangle. If the triangle is valid, find and display the smallest angle; otherwise, display an appropriate error message.
+*/
+
+
 #include <stdio.h>
 
 int main()

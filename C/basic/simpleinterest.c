@@ -1,14 +1,25 @@
-#include<stdio.h>
+// Question: Write a C program to input the principal amount,
+// rate of interest, and time, then calculate and display
+// the simple interest using SI = (P * R * T) / 100.
+
+#include <stdio.h>
+
 int main()
 {
- float principl,rate,time,si;
+    float principal, rate, time, si;
 
- scanf("%f",& principl );
- scanf("%f",&rate);
- scanf("%f",&time);
-si = (principl*rate*time)/100;
-printf("your simple interest is : %f,si");
+    printf("Enter principal amount: ");
+    scanf("%f", &principal);
 
+    printf("Enter rate of interest: ");
+    scanf("%f", &rate);
 
- return 0;    
+    printf("Enter time in years: ");
+    scanf("%f", &time);
+
+    si = (principal * rate * time) / 100;
+
+    printf("Your simple interest is: %.2f\n", si);
+
+    return 0;
 }
